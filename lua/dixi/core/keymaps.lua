@@ -22,13 +22,7 @@ keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) 
 keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" }) -- make split windows equal width & height
 keymap.set("n", "<leader>ss", "<C-w>15>", { desc = "Increase Split Horizontally" }) -- make split windows equal width & height
 keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }) -- close current split window
--- TODO: Set leader s and some key so that splits are 25-75 percent instead of sloooow resizing
-
-keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", { desc = "Open new tab" }) -- open new tab
-keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" }) -- close current tab
-keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  go to next tab
-keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
-keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
+keymap.set("n", "<leader>sb", "o<esc>yy10p2k", { desc = "Add 10 blank lines below" })
 
 -- Remaps from Primagens Videos
 
