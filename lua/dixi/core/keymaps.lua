@@ -22,7 +22,7 @@ keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) 
 keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" }) -- make split windows equal width & height
 keymap.set("n", "<leader>ss", "<C-w>15>", { desc = "Increase Split Horizontally" }) -- make split windows equal width & height
 keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }) -- close current split window
-keymap.set("n", "<leader>sb", "o<esc>yy10p2k", { desc = "Add 10 blank lines below" })
+keymap.set("n", "<leader>sb", "o<esc>yy5pk", { desc = "Add 5 blank lines below" })
 
 -- Remaps from Primagens Videos
 
